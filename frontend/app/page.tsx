@@ -47,7 +47,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
           <span className="font-mono font-bold text-sm tracking-wider">DEVOPS PROJECT 6</span>
           <a
-            href="https://github.com/HimanM/DevOps-Project-6"
+            href="https://github.com/HimanM/kubernetes-gitops-servicemesh-demo"
             target="_blank"
             className="text-xs text-gray-400 hover:text-white transition-colors flex items-center gap-2"
           >

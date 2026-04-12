@@ -126,10 +126,10 @@ To replicate this project locally, follow these steps:
 
 ```bash
 # Clone the repository to your local machine
-git clone https://github.com/HimanM/DevOps-Project-6.git
+git clone https://github.com/HimanM/kubernetes-gitops-servicemesh-demo.git
 
 # Navigate into the project directory
-cd DevOps-Project-6
+cd kubernetes-gitops-servicemesh-demo
 ```
 
 ### Repository Structure
@@ -205,16 +205,16 @@ If you need to build and push images manually:
 
 ```bash
 # Build frontend Docker image
-docker build -t ghcr.io/YOUR_USERNAME/devops-project-6/frontend:latest ./frontend
+docker build -t ghcr.io/YOUR_USERNAME/kubernetes-gitops-servicemesh-demo/frontend:latest ./frontend
 
 # Push frontend image to registry
-docker push ghcr.io/YOUR_USERNAME/devops-project-6/frontend:latest
+docker push ghcr.io/YOUR_USERNAME/kubernetes-gitops-servicemesh-demo/frontend:latest
 
 # Build backend Docker image
-docker build -t ghcr.io/YOUR_USERNAME/devops-project-6/backend:latest ./backend
+docker build -t ghcr.io/YOUR_USERNAME/kubernetes-gitops-servicemesh-demo/backend:latest ./backend
 
 # Push backend image to registry
-docker push ghcr.io/YOUR_USERNAME/devops-project-6/backend:latest
+docker push ghcr.io/YOUR_USERNAME/kubernetes-gitops-servicemesh-demo/backend:latest
 ```
 
 **What this does:** Builds Docker images locally from the Dockerfiles in the frontend and backend directories, tags them with your username and version, and pushes them to GitHub Container Registry for deployment.
@@ -299,8 +299,8 @@ argocd login YOUR_ARGOCD_SERVER
 argocd cluster add arn:aws:eks:us-west-2:YOUR_ACCOUNT_ID:cluster/learn-eks-sm-cluster
 
 # Create an ArgoCD application
-argocd app create devops-project-6 \
-  --repo https://github.com/HimanM/DevOps-Project-6.git \
+argocd app create kubernetes-gitops-servicemesh-demo \
+  --repo https://github.com/HimanM/kubernetes-gitops-servicemesh-demo.git \
   --path manifests \
   --dest-server https://kubernetes.default.svc \
   --dest-namespace default
