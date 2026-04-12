@@ -34,12 +34,12 @@ Simply commit and push changes to the `frontend/` or `backend/` directories.
 If you need to build manually:
 ```bash
 # Build Frontend
-docker build -t ghcr.io/himanm/devops-project-6/frontend:latest ./frontend
-docker push ghcr.io/himanm/devops-project-6/frontend:latest
+docker build -t ghcr.io/himanm/kubernetes-gitops-servicemesh-demo/frontend:latest ./frontend
+docker push ghcr.io/himanm/kubernetes-gitops-servicemesh-demo/frontend:latest
 
 # Build Backend
-docker build -t ghcr.io/himanm/devops-project-6/backend:latest ./backend
-docker push ghcr.io/himanm/devops-project-6/backend:latest
+docker build -t ghcr.io/himanm/kubernetes-gitops-servicemesh-demo/backend:latest ./backend
+docker push ghcr.io/himanm/kubernetes-gitops-servicemesh-demo/backend:latest
 ```
 
 ## 2. Provision Infrastructure with Terraform
