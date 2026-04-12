@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: ghcr.io/himanm/kubernetes-gitops-servicemesh-demo/frontend:sha-3f1aa18
+        image: ghcr.io/himanm/devops-project-6/frontend:sha-07538cb
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
