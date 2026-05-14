@@ -1,3 +1,9 @@
+<!-- BANNER_START -->
+<p align="center">
+  <img src="./.banner/banner.svg" width="100%" alt="Project Banner">
+</p>
+<!-- BANNER_END -->
+
 # DevOps Project 6: Cloud Native Infrastructure
 
 ## Cloud Native Infrastructure with EKS, Istio, and GitOps
