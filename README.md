@@ -39,7 +39,7 @@ The project orchestrates a sample microservices application (Next.js frontend an
 - Apply real-world DevOps practices with production-grade tools
 
 > [!NOTE]
-> **Live Demo:** A frontend-only deployment is available at [https://devops6.himanmanduja.fun](https://devops6.himanmanduja.fun) for demonstration purposes. The backend EKS cluster is not connected to this specific instance.
+> **Live Demo:** A frontend-only deployment is available at [https://devops6.himanm.com](https://devops6.himanm.com) for demonstration purposes. The backend EKS cluster is not connected to this specific instance.
 
 ## Technologies Used
 
@@ -525,7 +525,7 @@ This project is open source and available for educational purposes. Feel free to
 **Himan Manduja**
 
 - GitHub: [@HimanM](https://github.com/HimanM)
-- Website: [himanmanduja.fun](https://himanmanduja.fun)
-- Project Demo: [devops6.himanmanduja.fun](https://devops6.himanmanduja.fun)
+- Website: [himanm.com](https://himanm.com)
+- Project Demo: [devops6.himanm.com](https://devops6.himanm.com)
 
 For questions, suggestions, or collaboration opportunities, please open an issue in this repository or reach out through the contact information above.

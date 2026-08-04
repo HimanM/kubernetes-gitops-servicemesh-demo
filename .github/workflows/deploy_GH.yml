@@ -48,7 +48,7 @@ jobs:
 
       - name: Add CNAME file
         working-directory: ./frontend
-        run: echo "devops6.himanmanduja.fun" > out/CNAME
+        run: echo "devops6.himanm.com" > out/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
@@ -59,4 +59,4 @@ jobs:
           force_orphan: true
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
-          cname: devops6.himanmanduja.fun
+          cname: devops6.himanm.com
